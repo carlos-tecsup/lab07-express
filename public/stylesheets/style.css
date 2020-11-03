@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#divcursos{
+
+    border: 20px solid #fff;
+    background: #fbfbfd;
+    padding: 80px 50px;
+    box-shadow: 0 50px 100px 0 rgba(12,2,46,.15);
+
+}
+#divmodulos{
+
+  border: 20px solid #fff;
+  background: #fbfbfd;
+  padding: 80px 50px;
+  box-shadow: 0 50px 100px 0 rgba(12,2,46,.15);
+
+}
+
