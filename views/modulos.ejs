@@ -14,26 +14,24 @@
     <BR>
     <BR>
     <BR>
-     
+      <form action="/pago" >
         <div class="d-flex justify-content-center"id="#divmodulos">
         <div class="form-check form-check-inline ">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="nivel" value="Basico">
             <label class="form-check-label" for="inlineCheckbox1">Basico</label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="nivel" value="Intermedio">
             <label class="form-check-label" for="inlineCheckbox2">Intermedio</label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="nivel" value="avanzado">
             <label class="form-check-label" for="inlineCheckbox3">Avanzado</label>
           </div>
           
         </div>
-        <br>
-        <br>
-        <br>
-        <a href="/pago"><button class="btn btn-primary btn-lg btn-block">Siguiente</button></a></div></body>
-
+      </br>
+      <input type="submit" value="Siguiente" formmethod="POST"  class="btn btn-primary btn-lg btn-block"/>
+      </form>
 
 </html>
